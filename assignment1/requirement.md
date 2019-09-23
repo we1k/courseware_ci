@@ -1,4 +1,4 @@
-#Designing a genetic algorithm to solve the first problem, and following the details below:
+# Designing a genetic algorithm to solve the first problem, and following the details below:
 
 ## 1: clearly pointintg out the following steps in the implementations:
 - initialization
