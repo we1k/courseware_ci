@@ -1,6 +1,6 @@
 # Designing a genetic algorithm to solve the first problem, and following the instructions:
 
-## 1: clearly pointintg out the following steps in the implementations:
+## 1. clearly pointintg out the following steps in the implementations:
 - initialization
 - fitness evaluation
 - selection for crossover and mutation
