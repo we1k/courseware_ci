@@ -81,11 +81,13 @@ function r = algorithm1()
             p = tournament_selection(total_fitness(p_candidate(1)), total_fitness(p_candidate(2)), p_candidate(1), p_candidate(2));
             new_pops(i,:) = total_solutions(p,:);
         end
-        I = randperm(pop_size);
-        pops = new_pops(I,:);
 
         % save for the analyzing
         the_best_in_each_gen(curr_gen, :) = [total_solutions(I(1), :), total_fitness(I(1))];
+        
+        % shuffle again
+        I = randperm(pop_size);
+        pops = new_pops(I,:);
     end
 r = the_best_in_each_gen;
 end
